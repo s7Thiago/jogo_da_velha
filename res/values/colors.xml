@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="VERMELHO_SANGUE">#5B0900</color>
+    <color name="VERMELHO_ESCURO">#4D0601</color>
+    <color name="VERDE">#107829</color>
+    <color name="AZUL_CLARO">#09D5D5</color>
+    <color name="PRETO">#00000000</color>
+    <color name="BRANCO">#99FFFFFF</color>
+    <color name="AMARELO">#00F2D813</color>
+    <color name="AMARELO_ESCURO">#00C39F03</color>
+</resources>

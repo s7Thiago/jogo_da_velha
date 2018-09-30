@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:id="@+id/mainLinearLayout"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/mainLinearLayout02"
+        android:orientation="vertical" >
+        >
+
+    <ScrollView
+        android:hideOnContentScroll="false"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="10px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/mainLinearLayout"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"  >
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton1"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 1"
+                    android:layout_marginBottom="1px"
+                    android:layout_marginRight="1px"/>
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton2"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 2"/>
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton3"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 3"
+                    android:layout_marginBottom="1px"
+                    android:layout_marginLeft="1px"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:animateLayoutChanges="true"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton4"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 4"
+                    android:layout_marginBottom="1px"
+                    android:layout_marginRight="1px"
+                    android:layout_marginTop="1px"/>
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton5"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 5"
+                    android:layout_marginBottom="1px"
+                    android:layout_marginRight="1px"
+                    android:layout_marginTop="1px"
+                    android:layout_marginLeft="1px"/>
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton6"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 6"
+                    android:layout_marginBottom="1px"
+                    android:layout_marginTop="1px"
+                    android:layout_marginLeft="1px"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+            >
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton7"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 7"
+                    android:layout_marginTop="1px"
+                    android:layout_marginRight="1px"/>
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton8"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 8"
+                    android:layout_marginTop="1px"
+                    android:layout_marginRight="1px"
+                    android:layout_marginLeft="1px"/>
+
+                <Button
+                    android:textSize="60px"
+                    android:enabled="false"
+                    android:id="@+id/mainButton9"
+                    android:onClick="clickQuadrado"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:tag="Botao 9"
+                    android:layout_marginTop="1px"
+                    android:layout_marginLeft="1px"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hello" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="30px"
+                android:textColor="@color/VERDE"
+                android:layout_marginTop="15px"
+                android:id="@+id/mainTextViewIsFim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:textColor="#EEC83D03"
+                    android:textStyle="bold"
+                    android:textSize="150px"
+                    android:onClick="novoJogo"
+                    android:id="@+id/mainTextViewGanhadorX"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#EEC83D03"
+                    android:textStyle="bold"
+                    android:textSize="150px"
+                    android:onClick="novoJogo"
+                    android:id="@+id/mainTextViewGanhadorBolinha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+              <!--  <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" BT Teste"
+                android:id="@+id/mainBTTeste"/>-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:background="#00000000"
+        android:layout_marginBottom="90sp"
+        android:gravity="center|bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="30sp"
+            style="?android:attr/buttonBarButtonStyle"
+            android:textColor="#EEFFFFFF"
+            android:id="@+id/mainButtonNewGame"
+            android:background="@drawable/gray_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Novo Jogo"
+            android:onClick="novoJogo"
+        />
+    </LinearLayout>
+</LinearLayout>
